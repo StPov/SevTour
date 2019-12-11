@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		85F3A973239EBE49006FE8EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A972239EBE49006FE8EB /* AppDelegate.swift */; };
 		85F3A975239EBE49006FE8EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A974239EBE49006FE8EB /* SceneDelegate.swift */; };
-		85F3A977239EBE49006FE8EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A976239EBE49006FE8EB /* ViewController.swift */; };
-		85F3A97A239EBE49006FE8EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F3A978239EBE49006FE8EB /* Main.storyboard */; };
 		85F3A97D239EBE49006FE8EB /* SevTour.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A97B239EBE49006FE8EB /* SevTour.xcdatamodeld */; };
 		85F3A97F239EBE4B006FE8EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85F3A97E239EBE4B006FE8EB /* Assets.xcassets */; };
 		85F3A982239EBE4B006FE8EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F3A980239EBE4B006FE8EB /* LaunchScreen.storyboard */; };
 		85F3A98D239EBE4B006FE8EB /* SevTourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A98C239EBE4B006FE8EB /* SevTourTests.swift */; };
+		85F3A998239EBF2B006FE8EB /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A997239EBF2B006FE8EB /* MainTabBarController.swift */; };
+		85F3A99C239EBFC3006FE8EB /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A99B239EBFC3006FE8EB /* MapVC.swift */; };
+		85F3A99E239EBFD7006FE8EB /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A99D239EBFD7006FE8EB /* CameraVC.swift */; };
+		85F3A9A6239EC0FC006FE8EB /* AboutCityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A9A5239EC0FC006FE8EB /* AboutCityVC.swift */; };
+		85F3A9A8239EC10F006FE8EB /* FavouritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A9A7239EC10F006FE8EB /* FavouritesVC.swift */; };
+		85F3A9AA239F8287006FE8EB /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A9A9239F8287006FE8EB /* ListVC.swift */; };
+		85FF029D23A0EA7500AB5293 /* Map.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FF029C23A0EA7500AB5293 /* Map.xib */; };
+		85FF02A023A0EA8A00AB5293 /* TourVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FF029E23A0EA8A00AB5293 /* TourVC.swift */; };
+		85FF02A123A0EA8A00AB5293 /* TourVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FF029F23A0EA8A00AB5293 /* TourVC.xib */; };
+		85FF02A323A0EA9A00AB5293 /* Camera.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FF02A223A0EA9A00AB5293 /* Camera.xib */; };
+		85FF02A523A0EAB000AB5293 /* AboutCity.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FF02A423A0EAB000AB5293 /* AboutCity.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +40,6 @@
 		85F3A96F239EBE49006FE8EB /* SevTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F3A972239EBE49006FE8EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85F3A974239EBE49006FE8EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		85F3A976239EBE49006FE8EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		85F3A979239EBE49006FE8EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85F3A97C239EBE49006FE8EB /* SevTour.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SevTour.xcdatamodel; sourceTree = "<group>"; };
 		85F3A97E239EBE4B006FE8EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85F3A981239EBE4B006FE8EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +47,17 @@
 		85F3A988239EBE4B006FE8EB /* SevTourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SevTourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F3A98C239EBE4B006FE8EB /* SevTourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevTourTests.swift; sourceTree = "<group>"; };
 		85F3A98E239EBE4B006FE8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85F3A997239EBF2B006FE8EB /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		85F3A99B239EBFC3006FE8EB /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		85F3A99D239EBFD7006FE8EB /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		85F3A9A5239EC0FC006FE8EB /* AboutCityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCityVC.swift; sourceTree = "<group>"; };
+		85F3A9A7239EC10F006FE8EB /* FavouritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesVC.swift; sourceTree = "<group>"; };
+		85F3A9A9239F8287006FE8EB /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		85FF029C23A0EA7500AB5293 /* Map.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Map.xib; sourceTree = "<group>"; };
+		85FF029E23A0EA8A00AB5293 /* TourVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourVC.swift; sourceTree = "<group>"; };
+		85FF029F23A0EA8A00AB5293 /* TourVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TourVC.xib; sourceTree = "<group>"; };
+		85FF02A223A0EA9A00AB5293 /* Camera.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Camera.xib; sourceTree = "<group>"; };
+		85FF02A423A0EAB000AB5293 /* AboutCity.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutCity.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +99,15 @@
 		85F3A971239EBE49006FE8EB /* SevTour */ = {
 			isa = PBXGroup;
 			children = (
+				85FF02A623A0EB7B00AB5293 /* Services */,
+				85F3A9B7239FB9B9006FE8EB /* Extensions */,
+				85F3A9B6239FB759006FE8EB /* Protocols */,
+				85F3A9B5239FB719006FE8EB /* Custom Views */,
 				85F3A972239EBE49006FE8EB /* AppDelegate.swift */,
 				85F3A974239EBE49006FE8EB /* SceneDelegate.swift */,
-				85F3A976239EBE49006FE8EB /* ViewController.swift */,
-				85F3A978239EBE49006FE8EB /* Main.storyboard */,
-				85F3A97E239EBE4B006FE8EB /* Assets.xcassets */,
-				85F3A980239EBE4B006FE8EB /* LaunchScreen.storyboard */,
-				85F3A983239EBE4B006FE8EB /* Info.plist */,
-				85F3A97B239EBE49006FE8EB /* SevTour.xcdatamodeld */,
+				85F3A9AB239FA63D006FE8EB /* Resources */,
+				85F3A997239EBF2B006FE8EB /* MainTabBarController.swift */,
+				85F3A9AD239FA9E6006FE8EB /* Screens */,
 			);
 			path = SevTour;
 			sourceTree = "<group>";
@@ -100,6 +119,118 @@
 				85F3A98E239EBE4B006FE8EB /* Info.plist */,
 			);
 			path = SevTourTests;
+			sourceTree = "<group>";
+		};
+		85F3A9AB239FA63D006FE8EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85F3A97E239EBE4B006FE8EB /* Assets.xcassets */,
+				85F3A980239EBE4B006FE8EB /* LaunchScreen.storyboard */,
+				85F3A983239EBE4B006FE8EB /* Info.plist */,
+				85F3A97B239EBE49006FE8EB /* SevTour.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		85F3A9AC239FA6F1006FE8EB /* AboutCity Screen */ = {
+			isa = PBXGroup;
+			children = (
+				85F3A9A5239EC0FC006FE8EB /* AboutCityVC.swift */,
+				85FF02A423A0EAB000AB5293 /* AboutCity.xib */,
+			);
+			path = "AboutCity Screen";
+			sourceTree = "<group>";
+		};
+		85F3A9AD239FA9E6006FE8EB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				85FF029B23A0EA4400AB5293 /* Tours Screen */,
+				85FF029A23A0EA0F00AB5293 /* Settings Screen */,
+				85F3A9B2239FB4C2006FE8EB /* Map Screen */,
+				85F3A9B1239FB4AC006FE8EB /* Camera Screen */,
+				85F3A9B3239FB4D7006FE8EB /* Favourites Screen */,
+				85F3A9B4239FB4E5006FE8EB /* List Screen */,
+				85F3A9AC239FA6F1006FE8EB /* AboutCity Screen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		85F3A9B1239FB4AC006FE8EB /* Camera Screen */ = {
+			isa = PBXGroup;
+			children = (
+				85F3A99D239EBFD7006FE8EB /* CameraVC.swift */,
+				85FF02A223A0EA9A00AB5293 /* Camera.xib */,
+			);
+			path = "Camera Screen";
+			sourceTree = "<group>";
+		};
+		85F3A9B2239FB4C2006FE8EB /* Map Screen */ = {
+			isa = PBXGroup;
+			children = (
+				85F3A99B239EBFC3006FE8EB /* MapVC.swift */,
+				85FF029C23A0EA7500AB5293 /* Map.xib */,
+			);
+			path = "Map Screen";
+			sourceTree = "<group>";
+		};
+		85F3A9B3239FB4D7006FE8EB /* Favourites Screen */ = {
+			isa = PBXGroup;
+			children = (
+				85F3A9A7239EC10F006FE8EB /* FavouritesVC.swift */,
+			);
+			path = "Favourites Screen";
+			sourceTree = "<group>";
+		};
+		85F3A9B4239FB4E5006FE8EB /* List Screen */ = {
+			isa = PBXGroup;
+			children = (
+				85F3A9A9239F8287006FE8EB /* ListVC.swift */,
+			);
+			path = "List Screen";
+			sourceTree = "<group>";
+		};
+		85F3A9B5239FB719006FE8EB /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		85F3A9B6239FB759006FE8EB /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		85F3A9B7239FB9B9006FE8EB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		85FF029A23A0EA0F00AB5293 /* Settings Screen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Settings Screen";
+			sourceTree = "<group>";
+		};
+		85FF029B23A0EA4400AB5293 /* Tours Screen */ = {
+			isa = PBXGroup;
+			children = (
+				85FF029E23A0EA8A00AB5293 /* TourVC.swift */,
+				85FF029F23A0EA8A00AB5293 /* TourVC.xib */,
+			);
+			path = "Tours Screen";
+			sourceTree = "<group>";
+		};
+		85FF02A623A0EB7B00AB5293 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,9 +314,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85FF02A523A0EAB000AB5293 /* AboutCity.xib in Resources */,
+				85FF029D23A0EA7500AB5293 /* Map.xib in Resources */,
 				85F3A982239EBE4B006FE8EB /* LaunchScreen.storyboard in Resources */,
+				85FF02A323A0EA9A00AB5293 /* Camera.xib in Resources */,
+				85FF02A123A0EA8A00AB5293 /* TourVC.xib in Resources */,
 				85F3A97F239EBE4B006FE8EB /* Assets.xcassets in Resources */,
-				85F3A97A239EBE49006FE8EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,9 +337,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85FF02A023A0EA8A00AB5293 /* TourVC.swift in Sources */,
 				85F3A97D239EBE49006FE8EB /* SevTour.xcdatamodeld in Sources */,
-				85F3A977239EBE49006FE8EB /* ViewController.swift in Sources */,
+				85F3A99C239EBFC3006FE8EB /* MapVC.swift in Sources */,
+				85F3A99E239EBFD7006FE8EB /* CameraVC.swift in Sources */,
+				85F3A998239EBF2B006FE8EB /* MainTabBarController.swift in Sources */,
+				85F3A9A6239EC0FC006FE8EB /* AboutCityVC.swift in Sources */,
+				85F3A9AA239F8287006FE8EB /* ListVC.swift in Sources */,
 				85F3A973239EBE49006FE8EB /* AppDelegate.swift in Sources */,
+				85F3A9A8239EC10F006FE8EB /* FavouritesVC.swift in Sources */,
 				85F3A975239EBE49006FE8EB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,14 +369,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		85F3A978239EBE49006FE8EB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				85F3A979239EBE49006FE8EB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		85F3A980239EBE4B006FE8EB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -368,7 +500,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 523XWQ22UQ;
-				INFOPLIST_FILE = SevTour/Info.plist;
+				INFOPLIST_FILE = SevTour/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,7 +518,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 523XWQ22UQ;
-				INFOPLIST_FILE = SevTour/Info.plist;
+				INFOPLIST_FILE = SevTour/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
