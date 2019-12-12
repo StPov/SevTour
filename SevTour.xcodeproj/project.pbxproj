@@ -15,7 +15,28 @@
 		8573A4A123A1711A00F69499 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8573A4A023A1711A00F69499 /* Location.swift */; };
 		8573A4A323A171A600F69499 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8573A4A223A171A600F69499 /* Category.swift */; };
 		857E91AD23A2902700D49904 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E91AC23A2902700D49904 /* Extensions+UIView.swift */; };
-		857E91B523A29EA800D49904 /* MapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 857E91B423A29EA800D49904 /* MapVC.xib */; };
+		857E91B923A2A84300D49904 /* YOLO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E91B823A2A84300D49904 /* YOLO.swift */; };
+		857E91BB23A2A85F00D49904 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E91BA23A2A85F00D49904 /* VideoCapture.swift */; };
+		857E91BD23A2A87C00D49904 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E91BC23A2A87C00D49904 /* BoundingBox.swift */; };
+		857E91BF23A2A89100D49904 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E91BE23A2A89100D49904 /* Helpers.swift */; };
+		857E91C223A2A8DB00D49904 /* Turf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E91C123A2A8DB00D49904 /* Turf.swift */; };
+		857E91C423A2A90000D49904 /* Extensions+CoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E91C323A2A90000D49904 /* Extensions+CoreLocation.swift */; };
+		857E91C723A2A97C00D49904 /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E91C623A2A97C00D49904 /* SCNVector3+Extensions.swift */; };
+		857E91C923A2A98F00D49904 /* SceneLocationEstimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E91C823A2A98F00D49904 /* SceneLocationEstimate.swift */; };
+		857E91CB23A2A99D00D49904 /* SceneLocationEstimate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E91CA23A2A99D00D49904 /* SceneLocationEstimate+Extensions.swift */; };
+		857E91CD23A2A9AB00D49904 /* FloatingPoint+Radians.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E91CC23A2A9AB00D49904 /* FloatingPoint+Radians.swift */; };
+		857E91CF23A2A9BC00D49904 /* LocationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E91CE23A2A9BC00D49904 /* LocationNode.swift */; };
+		857E91D123A2A9CF00D49904 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E91D023A2A9CF00D49904 /* CGPoint+Extensions.swift */; };
+		857E91D323A2A9EC00D49904 /* CLLocation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E91D223A2A9EC00D49904 /* CLLocation+Extensions.swift */; };
+		857E91D523A2A9F900D49904 /* SceneLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E91D423A2A9F900D49904 /* SceneLocationView.swift */; };
+		857E91D723A2AA1100D49904 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E91D623A2AA1100D49904 /* LocationManager.swift */; };
+		857E91D923A2AA2300D49904 /* SCNNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E91D823A2AA2300D49904 /* SCNNode+Extensions.swift */; };
+		857E91DB23A2AE4400D49904 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E91DA23A2AE4400D49904 /* SearchTableViewController.swift */; };
+		857E91DD23A2AE7100D49904 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E91DC23A2AE7100D49904 /* ARViewController.swift */; };
+		857E91DF23A2AE8600D49904 /* DetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E91DE23A2AE8600D49904 /* DetectionViewController.swift */; };
+		857E91E123A2B4D400D49904 /* AmpelPilot_2812rg.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 857E91E023A2B4D400D49904 /* AmpelPilot_2812rg.mlmodel */; };
+		857E91E323A2B56000D49904 /* MapProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E91E223A2B56000D49904 /* MapProtocol.swift */; };
+		857E91E523A2B65A00D49904 /* MapVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857E91E423A2B65A00D49904 /* MapVC.storyboard */; };
 		85F3A973239EBE49006FE8EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A972239EBE49006FE8EB /* AppDelegate.swift */; };
 		85F3A975239EBE49006FE8EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A974239EBE49006FE8EB /* SceneDelegate.swift */; };
 		85F3A97D239EBE49006FE8EB /* SevTour.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A97B239EBE49006FE8EB /* SevTour.xcdatamodeld */; };
@@ -56,7 +77,28 @@
 		8573A4A023A1711A00F69499 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		8573A4A223A171A600F69499 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		857E91AC23A2902700D49904 /* Extensions+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
-		857E91B423A29EA800D49904 /* MapVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapVC.xib; sourceTree = "<group>"; };
+		857E91B823A2A84300D49904 /* YOLO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLO.swift; sourceTree = "<group>"; };
+		857E91BA23A2A85F00D49904 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		857E91BC23A2A87C00D49904 /* BoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
+		857E91BE23A2A89100D49904 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		857E91C123A2A8DB00D49904 /* Turf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turf.swift; sourceTree = "<group>"; };
+		857E91C323A2A90000D49904 /* Extensions+CoreLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+CoreLocation.swift"; sourceTree = "<group>"; };
+		857E91C623A2A97C00D49904 /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		857E91C823A2A98F00D49904 /* SceneLocationEstimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneLocationEstimate.swift; sourceTree = "<group>"; };
+		857E91CA23A2A99D00D49904 /* SceneLocationEstimate+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SceneLocationEstimate+Extensions.swift"; sourceTree = "<group>"; };
+		857E91CC23A2A9AB00D49904 /* FloatingPoint+Radians.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Radians.swift"; sourceTree = "<group>"; };
+		857E91CE23A2A9BC00D49904 /* LocationNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationNode.swift; sourceTree = "<group>"; };
+		857E91D023A2A9CF00D49904 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		857E91D223A2A9EC00D49904 /* CLLocation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extensions.swift"; sourceTree = "<group>"; };
+		857E91D423A2A9F900D49904 /* SceneLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneLocationView.swift; sourceTree = "<group>"; };
+		857E91D623A2AA1100D49904 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		857E91D823A2AA2300D49904 /* SCNNode+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNNode+Extensions.swift"; sourceTree = "<group>"; };
+		857E91DA23A2AE4400D49904 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		857E91DC23A2AE7100D49904 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		857E91DE23A2AE8600D49904 /* DetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionViewController.swift; sourceTree = "<group>"; };
+		857E91E023A2B4D400D49904 /* AmpelPilot_2812rg.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AmpelPilot_2812rg.mlmodel; sourceTree = "<group>"; };
+		857E91E223A2B56000D49904 /* MapProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapProtocol.swift; sourceTree = "<group>"; };
+		857E91E423A2B65A00D49904 /* MapVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapVC.storyboard; sourceTree = "<group>"; };
 		85F3A96F239EBE49006FE8EB /* SevTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F3A972239EBE49006FE8EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85F3A974239EBE49006FE8EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,10 +147,10 @@
 		8573A49623A1006000F69499 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				8573A4A623A225C800F69499 /* izi.TravelAPI */,
-				8573A4A523A225BD00F69499 /* OpenDataAPI */,
-				8573A4A423A2259700F69499 /* FoursquareAPI */,
-				8573A49923A1128D00F69499 /* Models */,
+				857E91C523A2A96D00D49904 /* ARCL */,
+				857E91C023A2A8A900D49904 /* Turf */,
+				857E91B723A2A82000D49904 /* AR */,
+				857E91B623A2A81700D49904 /* Network */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -126,6 +168,7 @@
 		8573A4A423A2259700F69499 /* FoursquareAPI */ = {
 			isa = PBXGroup;
 			children = (
+				8573A49923A1128D00F69499 /* Models */,
 				8573A49C23A13B5000F69499 /* FoursquareDataFetcher.swift */,
 				8573A49A23A13B2D00F69499 /* FoursquareNetworkService.swift */,
 			);
@@ -144,6 +187,52 @@
 			children = (
 			);
 			path = izi.TravelAPI;
+			sourceTree = "<group>";
+		};
+		857E91B623A2A81700D49904 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8573A4A623A225C800F69499 /* izi.TravelAPI */,
+				8573A4A523A225BD00F69499 /* OpenDataAPI */,
+				8573A4A423A2259700F69499 /* FoursquareAPI */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		857E91B723A2A82000D49904 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				857E91B823A2A84300D49904 /* YOLO.swift */,
+				857E91BA23A2A85F00D49904 /* VideoCapture.swift */,
+				857E91BC23A2A87C00D49904 /* BoundingBox.swift */,
+				857E91BE23A2A89100D49904 /* Helpers.swift */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		857E91C023A2A8A900D49904 /* Turf */ = {
+			isa = PBXGroup;
+			children = (
+				857E91C123A2A8DB00D49904 /* Turf.swift */,
+			);
+			path = Turf;
+			sourceTree = "<group>";
+		};
+		857E91C523A2A96D00D49904 /* ARCL */ = {
+			isa = PBXGroup;
+			children = (
+				857E91C623A2A97C00D49904 /* SCNVector3+Extensions.swift */,
+				857E91C823A2A98F00D49904 /* SceneLocationEstimate.swift */,
+				857E91CA23A2A99D00D49904 /* SceneLocationEstimate+Extensions.swift */,
+				857E91CC23A2A9AB00D49904 /* FloatingPoint+Radians.swift */,
+				857E91CE23A2A9BC00D49904 /* LocationNode.swift */,
+				857E91D023A2A9CF00D49904 /* CGPoint+Extensions.swift */,
+				857E91D223A2A9EC00D49904 /* CLLocation+Extensions.swift */,
+				857E91D423A2A9F900D49904 /* SceneLocationView.swift */,
+				857E91D623A2AA1100D49904 /* LocationManager.swift */,
+				857E91D823A2AA2300D49904 /* SCNNode+Extensions.swift */,
+			);
+			path = ARCL;
 			sourceTree = "<group>";
 		};
 		85F3A966239EBE49006FE8EB = {
@@ -198,6 +287,7 @@
 				85F3A980239EBE4B006FE8EB /* LaunchScreen.storyboard */,
 				85F3A983239EBE4B006FE8EB /* Info.plist */,
 				85F3A97B239EBE49006FE8EB /* SevTour.xcdatamodeld */,
+				857E91E023A2B4D400D49904 /* AmpelPilot_2812rg.mlmodel */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -238,7 +328,10 @@
 			isa = PBXGroup;
 			children = (
 				85F3A99B239EBFC3006FE8EB /* MapVC.swift */,
-				857E91B423A29EA800D49904 /* MapVC.xib */,
+				857E91DA23A2AE4400D49904 /* SearchTableViewController.swift */,
+				857E91DC23A2AE7100D49904 /* ARViewController.swift */,
+				857E91DE23A2AE8600D49904 /* DetectionViewController.swift */,
+				857E91E423A2B65A00D49904 /* MapVC.storyboard */,
 			);
 			path = "Map Screen";
 			sourceTree = "<group>";
@@ -269,6 +362,7 @@
 		85F3A9B6239FB759006FE8EB /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				857E91E223A2B56000D49904 /* MapProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -278,6 +372,7 @@
 			children = (
 				8573A49723A101B000F69499 /* Extensions+UIViewController.swift */,
 				857E91AC23A2902700D49904 /* Extensions+UIView.swift */,
+				857E91C323A2A90000D49904 /* Extensions+CoreLocation.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -403,8 +498,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				85FF02A523A0EAB000AB5293 /* AboutCity.xib in Resources */,
-				857E91B523A29EA800D49904 /* MapVC.xib in Resources */,
 				85F3A982239EBE4B006FE8EB /* LaunchScreen.storyboard in Resources */,
+				857E91E523A2B65A00D49904 /* MapVC.storyboard in Resources */,
 				85FF02A323A0EA9A00AB5293 /* Camera.xib in Resources */,
 				85FF02A123A0EA8A00AB5293 /* TourVC.xib in Resources */,
 				85F3A97F239EBE4B006FE8EB /* Assets.xcassets in Resources */,
@@ -489,11 +584,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				857E91C223A2A8DB00D49904 /* Turf.swift in Sources */,
+				857E91D523A2A9F900D49904 /* SceneLocationView.swift in Sources */,
+				857E91D323A2A9EC00D49904 /* CLLocation+Extensions.swift in Sources */,
+				857E91D923A2AA2300D49904 /* SCNNode+Extensions.swift in Sources */,
+				857E91C923A2A98F00D49904 /* SceneLocationEstimate.swift in Sources */,
+				857E91E123A2B4D400D49904 /* AmpelPilot_2812rg.mlmodel in Sources */,
+				857E91D723A2AA1100D49904 /* LocationManager.swift in Sources */,
 				8573A49B23A13B2D00F69499 /* FoursquareNetworkService.swift in Sources */,
+				857E91BF23A2A89100D49904 /* Helpers.swift in Sources */,
 				85FF02A023A0EA8A00AB5293 /* TourVC.swift in Sources */,
+				857E91B923A2A84300D49904 /* YOLO.swift in Sources */,
+				857E91DF23A2AE8600D49904 /* DetectionViewController.swift in Sources */,
 				85F3A97D239EBE49006FE8EB /* SevTour.xcdatamodeld in Sources */,
 				8573A49F23A1702400F69499 /* Venue.swift in Sources */,
+				857E91CD23A2A9AB00D49904 /* FloatingPoint+Radians.swift in Sources */,
 				857E91AD23A2902700D49904 /* Extensions+UIView.swift in Sources */,
+				857E91DD23A2AE7100D49904 /* ARViewController.swift in Sources */,
+				857E91CB23A2A99D00D49904 /* SceneLocationEstimate+Extensions.swift in Sources */,
+				857E91E323A2B56000D49904 /* MapProtocol.swift in Sources */,
 				85F3A99C239EBFC3006FE8EB /* MapVC.swift in Sources */,
 				8573A49D23A13B5000F69499 /* FoursquareDataFetcher.swift in Sources */,
 				85F3A99E239EBFD7006FE8EB /* CameraVC.swift in Sources */,
@@ -501,9 +610,16 @@
 				8573A4A123A1711A00F69499 /* Location.swift in Sources */,
 				85F3A998239EBF2B006FE8EB /* MainTabBarController.swift in Sources */,
 				85F3A9A6239EC0FC006FE8EB /* AboutCityVC.swift in Sources */,
+				857E91C423A2A90000D49904 /* Extensions+CoreLocation.swift in Sources */,
 				8573A49823A101B000F69499 /* Extensions+UIViewController.swift in Sources */,
 				85F3A9AA239F8287006FE8EB /* ListVC.swift in Sources */,
+				857E91BD23A2A87C00D49904 /* BoundingBox.swift in Sources */,
+				857E91C723A2A97C00D49904 /* SCNVector3+Extensions.swift in Sources */,
+				857E91D123A2A9CF00D49904 /* CGPoint+Extensions.swift in Sources */,
 				85F3A973239EBE49006FE8EB /* AppDelegate.swift in Sources */,
+				857E91CF23A2A9BC00D49904 /* LocationNode.swift in Sources */,
+				857E91BB23A2A85F00D49904 /* VideoCapture.swift in Sources */,
+				857E91DB23A2AE4400D49904 /* SearchTableViewController.swift in Sources */,
 				85F3A9A8239EC10F006FE8EB /* FavouritesVC.swift in Sources */,
 				85F3A975239EBE49006FE8EB /* SceneDelegate.swift in Sources */,
 			);
