@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3496767F8BB9CF1A9637417F /* Pods_SevTour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C37E6BD9317A27CEBBF518 /* Pods_SevTour.framework */; };
+		8573A49823A101B000F69499 /* Extensions+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8573A49723A101B000F69499 /* Extensions+UIViewController.swift */; };
+		8573A49B23A13B2D00F69499 /* FoursquareNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8573A49A23A13B2D00F69499 /* FoursquareNetworkService.swift */; };
+		8573A49D23A13B5000F69499 /* FoursquareDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8573A49C23A13B5000F69499 /* FoursquareDataFetcher.swift */; };
+		8573A49F23A1702400F69499 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8573A49E23A1702400F69499 /* Venue.swift */; };
+		8573A4A123A1711A00F69499 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8573A4A023A1711A00F69499 /* Location.swift */; };
+		8573A4A323A171A600F69499 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8573A4A223A171A600F69499 /* Category.swift */; };
 		85F3A973239EBE49006FE8EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A972239EBE49006FE8EB /* AppDelegate.swift */; };
 		85F3A975239EBE49006FE8EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A974239EBE49006FE8EB /* SceneDelegate.swift */; };
 		85F3A97D239EBE49006FE8EB /* SevTour.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A97B239EBE49006FE8EB /* SevTour.xcdatamodeld */; };
@@ -24,6 +31,7 @@
 		85FF02A123A0EA8A00AB5293 /* TourVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FF029F23A0EA8A00AB5293 /* TourVC.xib */; };
 		85FF02A323A0EA9A00AB5293 /* Camera.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FF02A223A0EA9A00AB5293 /* Camera.xib */; };
 		85FF02A523A0EAB000AB5293 /* AboutCity.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FF02A423A0EAB000AB5293 /* AboutCity.xib */; };
+		A18141D902C8A899F3B65323 /* Pods_SevTourTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C383C613C0A9428209F5249 /* Pods_SevTourTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47F9D3B376DBAC9824AF5A74 /* Pods-SevTourTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevTourTests.release.xcconfig"; path = "Target Support Files/Pods-SevTourTests/Pods-SevTourTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C383C613C0A9428209F5249 /* Pods_SevTourTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SevTourTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C260C7C0BF363020D186246 /* Pods-SevTourTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevTourTests.debug.xcconfig"; path = "Target Support Files/Pods-SevTourTests/Pods-SevTourTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8573A49723A101B000F69499 /* Extensions+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIViewController.swift"; sourceTree = "<group>"; };
+		8573A49A23A13B2D00F69499 /* FoursquareNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoursquareNetworkService.swift; sourceTree = "<group>"; };
+		8573A49C23A13B5000F69499 /* FoursquareDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoursquareDataFetcher.swift; sourceTree = "<group>"; };
+		8573A49E23A1702400F69499 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		8573A4A023A1711A00F69499 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		8573A4A223A171A600F69499 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		85F3A96F239EBE49006FE8EB /* SevTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F3A972239EBE49006FE8EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85F3A974239EBE49006FE8EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +75,9 @@
 		85FF029F23A0EA8A00AB5293 /* TourVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TourVC.xib; sourceTree = "<group>"; };
 		85FF02A223A0EA9A00AB5293 /* Camera.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Camera.xib; sourceTree = "<group>"; };
 		85FF02A423A0EAB000AB5293 /* AboutCity.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutCity.xib; sourceTree = "<group>"; };
+		AEAC68E1386D8BC788C41749 /* Pods-SevTour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevTour.release.xcconfig"; path = "Target Support Files/Pods-SevTour/Pods-SevTour.release.xcconfig"; sourceTree = "<group>"; };
+		C8D1CEB216C52A99A3FA2260 /* Pods-SevTour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevTour.debug.xcconfig"; path = "Target Support Files/Pods-SevTour/Pods-SevTour.debug.xcconfig"; sourceTree = "<group>"; };
+		D7C37E6BD9317A27CEBBF518 /* Pods_SevTour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SevTour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3496767F8BB9CF1A9637417F /* Pods_SevTour.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,18 +93,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A18141D902C8A899F3B65323 /* Pods_SevTourTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8573A49623A1006000F69499 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8573A4A623A225C800F69499 /* izi.TravelAPI */,
+				8573A4A523A225BD00F69499 /* OpenDataAPI */,
+				8573A4A423A2259700F69499 /* FoursquareAPI */,
+				8573A49923A1128D00F69499 /* Models */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8573A49923A1128D00F69499 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8573A49E23A1702400F69499 /* Venue.swift */,
+				8573A4A023A1711A00F69499 /* Location.swift */,
+				8573A4A223A171A600F69499 /* Category.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8573A4A423A2259700F69499 /* FoursquareAPI */ = {
+			isa = PBXGroup;
+			children = (
+				8573A49C23A13B5000F69499 /* FoursquareDataFetcher.swift */,
+				8573A49A23A13B2D00F69499 /* FoursquareNetworkService.swift */,
+			);
+			path = FoursquareAPI;
+			sourceTree = "<group>";
+		};
+		8573A4A523A225BD00F69499 /* OpenDataAPI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OpenDataAPI;
+			sourceTree = "<group>";
+		};
+		8573A4A623A225C800F69499 /* izi.TravelAPI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = izi.TravelAPI;
+			sourceTree = "<group>";
+		};
 		85F3A966239EBE49006FE8EB = {
 			isa = PBXGroup;
 			children = (
 				85F3A971239EBE49006FE8EB /* SevTour */,
 				85F3A98B239EBE4B006FE8EB /* SevTourTests */,
 				85F3A970239EBE49006FE8EB /* Products */,
+				C64091075486824C3DD49059 /* Pods */,
+				F6EBC77009BA87571E589BB8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,15 +167,13 @@
 		85F3A971239EBE49006FE8EB /* SevTour */ = {
 			isa = PBXGroup;
 			children = (
-				85FF02A623A0EB7B00AB5293 /* Services */,
 				85F3A9B7239FB9B9006FE8EB /* Extensions */,
 				85F3A9B6239FB759006FE8EB /* Protocols */,
+				8573A49623A1006000F69499 /* Services */,
+				85F3A9AD239FA9E6006FE8EB /* Screens */,
 				85F3A9B5239FB719006FE8EB /* Custom Views */,
-				85F3A972239EBE49006FE8EB /* AppDelegate.swift */,
-				85F3A974239EBE49006FE8EB /* SceneDelegate.swift */,
 				85F3A9AB239FA63D006FE8EB /* Resources */,
 				85F3A997239EBF2B006FE8EB /* MainTabBarController.swift */,
-				85F3A9AD239FA9E6006FE8EB /* Screens */,
 			);
 			path = SevTour;
 			sourceTree = "<group>";
@@ -124,6 +190,8 @@
 		85F3A9AB239FA63D006FE8EB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				85F3A972239EBE49006FE8EB /* AppDelegate.swift */,
+				85F3A974239EBE49006FE8EB /* SceneDelegate.swift */,
 				85F3A97E239EBE4B006FE8EB /* Assets.xcassets */,
 				85F3A980239EBE4B006FE8EB /* LaunchScreen.storyboard */,
 				85F3A983239EBE4B006FE8EB /* Info.plist */,
@@ -206,6 +274,7 @@
 		85F3A9B7239FB9B9006FE8EB /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				8573A49723A101B000F69499 /* Extensions+UIViewController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -226,11 +295,24 @@
 			path = "Tours Screen";
 			sourceTree = "<group>";
 		};
-		85FF02A623A0EB7B00AB5293 /* Services */ = {
+		C64091075486824C3DD49059 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				C8D1CEB216C52A99A3FA2260 /* Pods-SevTour.debug.xcconfig */,
+				AEAC68E1386D8BC788C41749 /* Pods-SevTour.release.xcconfig */,
+				5C260C7C0BF363020D186246 /* Pods-SevTourTests.debug.xcconfig */,
+				47F9D3B376DBAC9824AF5A74 /* Pods-SevTourTests.release.xcconfig */,
 			);
-			path = Services;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F6EBC77009BA87571E589BB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7C37E6BD9317A27CEBBF518 /* Pods_SevTour.framework */,
+				4C383C613C0A9428209F5249 /* Pods_SevTourTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,9 +322,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85F3A991239EBE4B006FE8EB /* Build configuration list for PBXNativeTarget "SevTour" */;
 			buildPhases = (
+				144B4AB7A9986AEC48F8230E /* [CP] Check Pods Manifest.lock */,
 				85F3A96B239EBE49006FE8EB /* Sources */,
 				85F3A96C239EBE49006FE8EB /* Frameworks */,
 				85F3A96D239EBE49006FE8EB /* Resources */,
+				CD5B694137C75ED1DB46410B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +341,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85F3A994239EBE4B006FE8EB /* Build configuration list for PBXNativeTarget "SevTourTests" */;
 			buildPhases = (
+				8DA4FDA80686CFCFFDFD2664 /* [CP] Check Pods Manifest.lock */,
 				85F3A984239EBE4B006FE8EB /* Sources */,
 				85F3A985239EBE4B006FE8EB /* Frameworks */,
 				85F3A986239EBE4B006FE8EB /* Resources */,
@@ -332,17 +417,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		144B4AB7A9986AEC48F8230E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SevTour-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DA4FDA80686CFCFFDFD2664 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SevTourTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD5B694137C75ED1DB46410B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SevTour/Pods-SevTour-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SevTour/Pods-SevTour-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SevTour/Pods-SevTour-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		85F3A96B239EBE49006FE8EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8573A49B23A13B2D00F69499 /* FoursquareNetworkService.swift in Sources */,
 				85FF02A023A0EA8A00AB5293 /* TourVC.swift in Sources */,
 				85F3A97D239EBE49006FE8EB /* SevTour.xcdatamodeld in Sources */,
+				8573A49F23A1702400F69499 /* Venue.swift in Sources */,
 				85F3A99C239EBFC3006FE8EB /* MapVC.swift in Sources */,
+				8573A49D23A13B5000F69499 /* FoursquareDataFetcher.swift in Sources */,
 				85F3A99E239EBFD7006FE8EB /* CameraVC.swift in Sources */,
+				8573A4A323A171A600F69499 /* Category.swift in Sources */,
+				8573A4A123A1711A00F69499 /* Location.swift in Sources */,
 				85F3A998239EBF2B006FE8EB /* MainTabBarController.swift in Sources */,
 				85F3A9A6239EC0FC006FE8EB /* AboutCityVC.swift in Sources */,
+				8573A49823A101B000F69499 /* Extensions+UIViewController.swift in Sources */,
 				85F3A9AA239F8287006FE8EB /* ListVC.swift in Sources */,
 				85F3A973239EBE49006FE8EB /* AppDelegate.swift in Sources */,
 				85F3A9A8239EC10F006FE8EB /* FavouritesVC.swift in Sources */,
@@ -496,6 +651,7 @@
 		};
 		85F3A992239EBE4B006FE8EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8D1CEB216C52A99A3FA2260 /* Pods-SevTour.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +670,7 @@
 		};
 		85F3A993239EBE4B006FE8EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEAC68E1386D8BC788C41749 /* Pods-SevTour.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +689,7 @@
 		};
 		85F3A995239EBE4B006FE8EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C260C7C0BF363020D186246 /* Pods-SevTourTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -554,6 +712,7 @@
 		};
 		85F3A996239EBE4B006FE8EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47F9D3B376DBAC9824AF5A74 /* Pods-SevTourTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

@@ -11,6 +11,7 @@ import UIKit
 class AboutCityVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        setLargeTitle(title: "About City", isOn: true)
         
         view.backgroundColor = .green
     }

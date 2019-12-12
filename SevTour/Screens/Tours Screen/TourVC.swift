@@ -12,6 +12,8 @@ class TourVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        setLargeTitle(title: "City Tours", isOn: true)
 
         // Do any additional setup after loading the view.
     }

@@ -23,7 +23,7 @@ class MainTabBarController: UITabBarController {
         let secondVC = MapVC()
         let thirdVC = CameraVC()
         let fourthVC = AboutCityVC()
-        let fifthVC = FavouritesVC()
+        let fifthVC = TourVC()
         
         viewControllers = [
 //            generateNavigationController(rootViewController: photosVC, title: "Photos", image: #imageLiteral(resourceName: "photos")),

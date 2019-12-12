@@ -13,6 +13,7 @@ class ListVC: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.backgroundColor = .red
+        setLargeTitle(title: "City Infrastructure", isOn: true)
     }
     
 }
