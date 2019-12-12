@@ -14,7 +14,7 @@ class TourVC: UIViewController {
         super.viewDidLoad()
         
         setLargeTitle(title: "City Tours", isOn: true)
-
+        view.backgroundColor = .lightGray
         // Do any additional setup after loading the view.
     }
 

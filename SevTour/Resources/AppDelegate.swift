@@ -8,14 +8,16 @@
 
 import UIKit
 import CoreData
+import YandexMapKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    let MAPKIT_API_KEY = "10997a14-965b-4f08-8859-4bdf667b201c"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        YMKMapKit.setApiKey(MAPKIT_API_KEY)
+        
         return true
     }
 

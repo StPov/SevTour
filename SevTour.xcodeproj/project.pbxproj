@@ -14,6 +14,8 @@
 		8573A49F23A1702400F69499 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8573A49E23A1702400F69499 /* Venue.swift */; };
 		8573A4A123A1711A00F69499 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8573A4A023A1711A00F69499 /* Location.swift */; };
 		8573A4A323A171A600F69499 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8573A4A223A171A600F69499 /* Category.swift */; };
+		857E91AD23A2902700D49904 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E91AC23A2902700D49904 /* Extensions+UIView.swift */; };
+		857E91B523A29EA800D49904 /* MapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 857E91B423A29EA800D49904 /* MapVC.xib */; };
 		85F3A973239EBE49006FE8EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A972239EBE49006FE8EB /* AppDelegate.swift */; };
 		85F3A975239EBE49006FE8EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A974239EBE49006FE8EB /* SceneDelegate.swift */; };
 		85F3A97D239EBE49006FE8EB /* SevTour.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A97B239EBE49006FE8EB /* SevTour.xcdatamodeld */; };
@@ -26,7 +28,6 @@
 		85F3A9A6239EC0FC006FE8EB /* AboutCityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A9A5239EC0FC006FE8EB /* AboutCityVC.swift */; };
 		85F3A9A8239EC10F006FE8EB /* FavouritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A9A7239EC10F006FE8EB /* FavouritesVC.swift */; };
 		85F3A9AA239F8287006FE8EB /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3A9A9239F8287006FE8EB /* ListVC.swift */; };
-		85FF029D23A0EA7500AB5293 /* Map.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FF029C23A0EA7500AB5293 /* Map.xib */; };
 		85FF02A023A0EA8A00AB5293 /* TourVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FF029E23A0EA8A00AB5293 /* TourVC.swift */; };
 		85FF02A123A0EA8A00AB5293 /* TourVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FF029F23A0EA8A00AB5293 /* TourVC.xib */; };
 		85FF02A323A0EA9A00AB5293 /* Camera.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FF02A223A0EA9A00AB5293 /* Camera.xib */; };
@@ -54,6 +55,8 @@
 		8573A49E23A1702400F69499 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
 		8573A4A023A1711A00F69499 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		8573A4A223A171A600F69499 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		857E91AC23A2902700D49904 /* Extensions+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		857E91B423A29EA800D49904 /* MapVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapVC.xib; sourceTree = "<group>"; };
 		85F3A96F239EBE49006FE8EB /* SevTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F3A972239EBE49006FE8EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85F3A974239EBE49006FE8EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,7 +73,6 @@
 		85F3A9A5239EC0FC006FE8EB /* AboutCityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCityVC.swift; sourceTree = "<group>"; };
 		85F3A9A7239EC10F006FE8EB /* FavouritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesVC.swift; sourceTree = "<group>"; };
 		85F3A9A9239F8287006FE8EB /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
-		85FF029C23A0EA7500AB5293 /* Map.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Map.xib; sourceTree = "<group>"; };
 		85FF029E23A0EA8A00AB5293 /* TourVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourVC.swift; sourceTree = "<group>"; };
 		85FF029F23A0EA8A00AB5293 /* TourVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TourVC.xib; sourceTree = "<group>"; };
 		85FF02A223A0EA9A00AB5293 /* Camera.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Camera.xib; sourceTree = "<group>"; };
@@ -236,7 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				85F3A99B239EBFC3006FE8EB /* MapVC.swift */,
-				85FF029C23A0EA7500AB5293 /* Map.xib */,
+				857E91B423A29EA800D49904 /* MapVC.xib */,
 			);
 			path = "Map Screen";
 			sourceTree = "<group>";
@@ -275,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				8573A49723A101B000F69499 /* Extensions+UIViewController.swift */,
+				857E91AC23A2902700D49904 /* Extensions+UIView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -400,7 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85FF02A523A0EAB000AB5293 /* AboutCity.xib in Resources */,
-				85FF029D23A0EA7500AB5293 /* Map.xib in Resources */,
+				857E91B523A29EA800D49904 /* MapVC.xib in Resources */,
 				85F3A982239EBE4B006FE8EB /* LaunchScreen.storyboard in Resources */,
 				85FF02A323A0EA9A00AB5293 /* Camera.xib in Resources */,
 				85FF02A123A0EA8A00AB5293 /* TourVC.xib in Resources */,
@@ -490,6 +493,7 @@
 				85FF02A023A0EA8A00AB5293 /* TourVC.swift in Sources */,
 				85F3A97D239EBE49006FE8EB /* SevTour.xcdatamodeld in Sources */,
 				8573A49F23A1702400F69499 /* Venue.swift in Sources */,
+				857E91AD23A2902700D49904 /* Extensions+UIView.swift in Sources */,
 				85F3A99C239EBFC3006FE8EB /* MapVC.swift in Sources */,
 				8573A49D23A13B5000F69499 /* FoursquareDataFetcher.swift in Sources */,
 				85F3A99E239EBFD7006FE8EB /* CameraVC.swift in Sources */,
