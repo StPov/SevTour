@@ -21,6 +21,7 @@ class MapVC: UIViewController {
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var distanceLabel: UILabel!
     @IBOutlet weak var orientedToTrueNorth: UISwitch!
+    @IBOutlet weak var userLocationBtn: UIButton!
     
     
     @IBOutlet weak var bottomLayoutConstraint: NSLayoutConstraint!
@@ -33,6 +34,8 @@ class MapVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        addTargtes()
+        
         //add panGesture to Detail View
         let panGesture = UIPanGestureRecognizer(target: self, action: #selector(panGestureHandler(_:)))
         detailView.addGestureRecognizer(panGesture)
@@ -80,6 +83,17 @@ class MapVC: UIViewController {
         self.navigationController!.isNavigationBarHidden = false
     }
     
+    private func addTargtes() {
+        userLocationBtn.addTarget(self, action: #selector(centerOnUSerLocation), for: .touchUpInside)
+    }
+    
+    @objc func centerOnUSerLocation() {
+        locationManager.startUpdatingLocation()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            self.locationManager.stopUpdatingLocation()
+        }
+    }
+    
     @objc func panGestureHandler(_ sender: UIPanGestureRecognizer) {
         let touchPoint = sender.location(in: detailView.window)
         print("touchPoint \(touchPoint)")
@@ -111,10 +125,9 @@ class MapVC: UIViewController {
     //MARK: - Y.map conf
     func confugureYandexMap() {
         let map = yMapView.mapWindow.map
-        //map.isNightModeEnabled = true
+        map.isNightModeEnabled = false
         map.isRotateGesturesEnabled = true
         
-//        let scale = UIScreen.main.scale
         let mapKit = YMKMapKit.sharedInstance()!
         let userLocationLayer = mapKit.createUserLocationLayer(with: yMapView.mapWindow)
 
@@ -222,7 +235,6 @@ class MapVC: UIViewController {
     
     // MARK: - Navigation
     
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "ARSegue" {
@@ -240,13 +252,13 @@ class MapVC: UIViewController {
 
 //MARK: - CLLocationManagerDelegate
 extension MapVC: CLLocationManagerDelegate {
-    //TODO: - Выпилить?
+    
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if locations.count > 0 {
             let location = locations.last!
             print("Accuracy: \(location.horizontalAccuracy)")
             
-            if location.horizontalAccuracy < 666 {
+            if location.horizontalAccuracy < 500 {
                 manager.stopUpdatingLocation()
                 print(location.altitude)
                 print(location.coordinate)

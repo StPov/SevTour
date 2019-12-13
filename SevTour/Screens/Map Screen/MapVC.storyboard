@@ -12,10 +12,6 @@
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kq1-Qa-RvB" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="mapVCId" id="FO4-nd-K08" customClass="MapVC" customModule="SevTour" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="MbK-y8-DFI"/>
-                        <viewControllerLayoutGuide type="bottom" id="xB0-H0-grh"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nHl-ON-GpP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -122,19 +118,29 @@
                                     <segue destination="dec-31-6Uo" kind="presentation" id="RE2-og-gh8"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XtM-iO-4kZ">
+                                <rect key="frame" x="356" y="237" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="mAx-lD-Qxa"/>
+                                    <constraint firstAttribute="width" constant="50" id="miU-wp-9jl"/>
+                                </constraints>
+                                <state key="normal" image="cursor"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="sSJ-ji-KtO" firstAttribute="leading" secondItem="nHl-ON-GpP" secondAttribute="leading" id="Ay0-H3-7DA"/>
+                            <constraint firstItem="XtM-iO-4kZ" firstAttribute="top" secondItem="Lgb-Wj-BvC" secondAttribute="bottom" constant="39" id="7tb-YO-xpO"/>
+                            <constraint firstItem="sSJ-ji-KtO" firstAttribute="leading" secondItem="0yn-Bd-d3z" secondAttribute="leading" id="Ay0-H3-7DA"/>
                             <constraint firstItem="sSJ-ji-KtO" firstAttribute="top" secondItem="nHl-ON-GpP" secondAttribute="top" id="Obi-ii-PgB"/>
                             <constraint firstAttribute="bottom" secondItem="sSJ-ji-KtO" secondAttribute="bottom" id="TSW-ZZ-Zxw"/>
-                            <constraint firstAttribute="trailing" secondItem="Lgb-Wj-BvC" secondAttribute="trailing" constant="8" id="bB2-q8-7dA"/>
-                            <constraint firstItem="vU8-iS-XEq" firstAttribute="centerX" secondItem="nHl-ON-GpP" secondAttribute="centerX" id="fI6-lE-cSc"/>
+                            <constraint firstItem="0yn-Bd-d3z" firstAttribute="trailing" secondItem="Lgb-Wj-BvC" secondAttribute="trailing" constant="8" id="bB2-q8-7dA"/>
+                            <constraint firstItem="vU8-iS-XEq" firstAttribute="centerX" secondItem="0yn-Bd-d3z" secondAttribute="centerX" id="fI6-lE-cSc"/>
+                            <constraint firstItem="0yn-Bd-d3z" firstAttribute="trailing" secondItem="XtM-iO-4kZ" secondAttribute="trailing" constant="8" id="fqQ-Ew-8Fl"/>
                             <constraint firstItem="Lgb-Wj-BvC" firstAttribute="top" secondItem="nHl-ON-GpP" secondAttribute="top" constant="148" id="rk4-rH-eAl"/>
-                            <constraint firstAttribute="trailing" secondItem="sSJ-ji-KtO" secondAttribute="trailing" id="xNJ-dG-evq"/>
-                            <constraint firstItem="xB0-H0-grh" firstAttribute="top" secondItem="vU8-iS-XEq" secondAttribute="bottom" id="yT9-oe-k4w"/>
+                            <constraint firstItem="0yn-Bd-d3z" firstAttribute="trailing" secondItem="sSJ-ji-KtO" secondAttribute="trailing" id="xNJ-dG-evq"/>
+                            <constraint firstItem="0yn-Bd-d3z" firstAttribute="bottom" secondItem="vU8-iS-XEq" secondAttribute="bottom" id="yT9-oe-k4w"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="J5a-xO-lFN"/>
+                        <viewLayoutGuide key="safeArea" id="0yn-Bd-d3z"/>
                     </view>
                     <navigationItem key="navigationItem" id="nI5-uJ-mJq"/>
                     <connections>
@@ -143,6 +149,7 @@
                         <outlet property="distanceLabel" destination="V1e-Rj-rw1" id="c5O-BQ-CBA"/>
                         <outlet property="orientedToTrueNorth" destination="ewT-wx-waK" id="7qo-PC-rTa"/>
                         <outlet property="timeLabel" destination="mKx-wS-K0X" id="QD0-nJ-s4a"/>
+                        <outlet property="userLocationBtn" destination="XtM-iO-4kZ" id="Boa-g9-5Cu"/>
                         <outlet property="yMapView" destination="sSJ-ji-KtO" id="vfD-xi-1yH"/>
                     </connections>
                 </viewController>
@@ -153,16 +160,12 @@
         <scene sceneID="75n-h7-GeY">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8J0-EJ-anw" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="SAu-rd-Hz9" customClass="ARViewController" customModule="AR_Navigator" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Emy-1b-gOw"/>
-                        <viewControllerLayoutGuide type="bottom" id="qvf-4M-oHf"/>
-                    </layoutGuides>
+                <viewController id="SAu-rd-Hz9" customClass="ARViewController" customModule="SevTour" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nn7-2I-poH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HzT-xj-5Kx" customClass="SceneLocationView" customModule="AR_Navigator">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HzT-xj-5Kx" customClass="SceneLocationView" customModule="SevTour" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3TK-zY-qQR">
@@ -263,10 +266,10 @@
                         <constraints>
                             <constraint firstItem="HzT-xj-5Kx" firstAttribute="top" secondItem="nn7-2I-poH" secondAttribute="top" id="0sH-x2-PLu"/>
                             <constraint firstAttribute="bottom" secondItem="HzT-xj-5Kx" secondAttribute="bottom" id="Jbe-Rg-5VQ"/>
-                            <constraint firstItem="HzT-xj-5Kx" firstAttribute="leading" secondItem="nn7-2I-poH" secondAttribute="leading" id="b1k-ua-8D1"/>
-                            <constraint firstAttribute="trailing" secondItem="HzT-xj-5Kx" secondAttribute="trailing" id="qZ5-V9-f2J"/>
+                            <constraint firstItem="HzT-xj-5Kx" firstAttribute="leading" secondItem="gRI-vb-JfH" secondAttribute="leading" id="b1k-ua-8D1"/>
+                            <constraint firstItem="gRI-vb-JfH" firstAttribute="trailing" secondItem="HzT-xj-5Kx" secondAttribute="trailing" id="qZ5-V9-f2J"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6G8-wF-DLV"/>
+                        <viewLayoutGuide key="safeArea" id="gRI-vb-JfH"/>
                     </view>
                     <navigationItem key="navigationItem" id="Qzz-ho-LJY"/>
                     <connections>
@@ -284,7 +287,7 @@
         <scene sceneID="H0z-z2-tNs">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gsw-IZ-joq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tableViewController storyboardIdentifier="searchTableViewController" id="CaA-vx-rBo" customClass="SearchTableViewController" customModule="AR_Navigator" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="searchTableViewController" id="CaA-vx-rBo" customClass="SearchTableViewController" customModule="SevTour" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="sd7-4U-WVM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -334,11 +337,7 @@
                         <action selector="panGestureHandler:" destination="dec-31-6Uo" id="eHL-Dc-VyJ"/>
                     </connections>
                 </panGestureRecognizer>
-                <viewController modalPresentationStyle="overFullScreen" id="dec-31-6Uo" customClass="DetectionViewController" customModule="AR_Navigator" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xzJ-nQ-Wan"/>
-                        <viewControllerLayoutGuide type="bottom" id="8YM-Du-GgX"/>
-                    </layoutGuides>
+                <viewController modalPresentationStyle="overFullScreen" id="dec-31-6Uo" customClass="DetectionViewController" customModule="SevTour" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dmV-FA-OuW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -398,12 +397,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Hp6-Zx-WSE" secondAttribute="trailing" id="71V-wC-KIs"/>
-                            <constraint firstItem="Hp6-Zx-WSE" firstAttribute="leading" secondItem="dmV-FA-OuW" secondAttribute="leading" id="GTF-lC-Uzs"/>
+                            <constraint firstItem="JZr-hf-fVR" firstAttribute="trailing" secondItem="Hp6-Zx-WSE" secondAttribute="trailing" id="71V-wC-KIs"/>
+                            <constraint firstItem="Hp6-Zx-WSE" firstAttribute="leading" secondItem="JZr-hf-fVR" secondAttribute="leading" id="GTF-lC-Uzs"/>
                             <constraint firstAttribute="bottom" secondItem="Hp6-Zx-WSE" secondAttribute="bottom" id="bbP-mb-Qlg"/>
                             <constraint firstItem="Hp6-Zx-WSE" firstAttribute="top" secondItem="dmV-FA-OuW" secondAttribute="top" id="rn5-R4-3Ab"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="tS7-7L-1cy"/>
+                        <viewLayoutGuide key="safeArea" id="JZr-hf-fVR"/>
                     </view>
                     <connections>
                         <outlet property="closeBtn" destination="dxX-8Z-28c" id="Imt-YP-ihQ"/>
@@ -419,6 +418,7 @@
     <resources>
         <image name="ar" width="175" height="195"/>
         <image name="closa" width="512" height="512"/>
+        <image name="cursor" width="64" height="64"/>
         <image name="minus" width="2000" height="2000"/>
         <image name="nn" width="200" height="200"/>
         <image name="plus" width="1024" height="1024"/>

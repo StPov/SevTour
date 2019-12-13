@@ -36,10 +36,6 @@ class ARViewController: UIViewController {
     
     @IBOutlet weak var alertView: UIView!
     @IBOutlet weak var alertLabel: UILabel!
-    //bydloCodeModeON
-    /*var countOfNothing = 0
-    var countOfGreen = 0
-    var countOfRed = 0*/
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -86,19 +82,10 @@ class ARViewController: UIViewController {
     
     @IBAction func mlButtonPressed(_ sender: Any) {
         if mlState {
-            /*boundingBoxes[0].hide()
-            boundingBoxes[1].hide()
-            boundingBoxes[2].hide()*/
             mlButton.backgroundColor = UIColor.lightGray
             mlState = false
             boundingBoxes[0].hide()
             boundingBoxes[1].hide()
-            //bydlocod
-            /*
-            alertView.isHidden = true
-            countOfGreen = 0
-            countOfRed = 0
-            countOfNothing = 0*/
         } else {
             mlButton.backgroundColor = UIColor.white
             mlState = true
